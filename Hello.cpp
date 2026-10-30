@@ -156,9 +156,30 @@ int main()
 
     //C++ Math
 
-    cout<<max(5,10)<<endl;
-    cout<<min(16,5)<<endl;
-    cout<<sqrt(64)<<endl;
-    cout<<round(2.6)<<endl;
-    cout<<log(2)<<endl;
+    // cout<<max(5,10)<<endl;
+    // cout<<min(16,5)<<endl;
+    // cout<<sqrt(64)<<endl;
+    // cout<<round(2.6)<<endl;
+    // cout<<log(2)<<endl;
+
+    //C++ boolean
+    bool a = true;
+    bool b = false;
+    cout<<a<<endl;
+    cout<<b<<endl;
+    cout<<boolalpha;
+    cout<<a<<endl;
+    cout<<b<<endl;
+
+    cout<<(10>9)<<endl;
+    cout<<(7<6)<<endl;
+    //voting system
+    int age =18;
+    if(age>=18)
+    {
+        cout<<"Can Vote"<<endl;
+    }else
+    {
+        cout<<"Can't Vote"<<endl;
+    }
 }
