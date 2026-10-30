@@ -115,12 +115,12 @@ int main()
     // cout<<(x<y || x>z)<<endl;
     //  cout<<!(x<y && x>z)<<endl;
 
-    int n =10;
-    int m =20;
-    int k =30;
-    int j =40;
-    int l=50;
-    cout<<(n+m)*k-j+l;
+    // int n =10;
+    // int m =20;
+    // int k =30;
+    // int j =40;
+    // int l=50;
+    // cout<<(n+m)*k-j+l;
     //Highest to lowest priority
     //     () - Parentheses
     // *, /, % - Multiplication, Division, Modulus
@@ -130,4 +130,26 @@ int main()
     // && - Logical AND
     // || - Logical OR
     // = - Assignment
+
+    //Strings
+
+    string Greeting = "Hello and Welcome";
+    cout<<Greeting<<endl;
+    string a = "Jay";
+    string b = "Harsh";
+    string c =a+" "+b;
+    string d = a.append(b);
+    cout<<c<<endl;
+    cout<<d<<endl;
+    cout<<b.length()<<endl;
+    cout<<b[0]<<endl;
+    b[0]= 'J';
+    cout<<b<<endl;
+
+    string n ;
+    cout<<"Print Your First Name"<< " "<<endl;
+    cin>>n;
+    cout<<"Your Name is"<<" "<<n<<endl;
+    char z[] = "HarshWardhan";
+    cout<<z;
 }
