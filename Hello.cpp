@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string>
+#include<cmath>
 using namespace std;
 int main()
 {  
@@ -133,23 +134,31 @@ int main()
 
     //Strings
 
-    string Greeting = "Hello and Welcome";
-    cout<<Greeting<<endl;
-    string a = "Jay";
-    string b = "Harsh";
-    string c =a+" "+b;
-    string d = a.append(b);
-    cout<<c<<endl;
-    cout<<d<<endl;
-    cout<<b.length()<<endl;
-    cout<<b[0]<<endl;
-    b[0]= 'J';
-    cout<<b<<endl;
+    // string Greeting = "Hello and Welcome";
+    // cout<<Greeting<<endl;
+    // string a = "Jay";
+    // string b = "Harsh";
+    // string c =a+" "+b;
+    // string d = a.append(b);
+    // cout<<c<<endl;
+    // cout<<d<<endl;
+    // cout<<b.length()<<endl;
+    // cout<<b[0]<<endl;
+    // b[0]= 'J';
+    // cout<<b<<endl;
 
-    string n ;
-    cout<<"Print Your First Name"<< " "<<endl;
-    cin>>n;
-    cout<<"Your Name is"<<" "<<n<<endl;
-    char z[] = "HarshWardhan";
-    cout<<z;
+    // string n ;
+    // cout<<"Print Your First Name"<< " "<<endl;
+    // cin>>n;
+    // cout<<"Your Name is"<<" "<<n<<endl;
+    // char z[] = "HarshWardhan";
+    // cout<<z;
+
+    //C++ Math
+
+    cout<<max(5,10)<<endl;
+    cout<<min(16,5)<<endl;
+    cout<<sqrt(64)<<endl;
+    cout<<round(2.6)<<endl;
+    cout<<log(2)<<endl;
 }
