@@ -163,23 +163,85 @@ int main()
     // cout<<log(2)<<endl;
 
     //C++ boolean
-    bool a = true;
-    bool b = false;
-    cout<<a<<endl;
-    cout<<b<<endl;
-    cout<<boolalpha;
-    cout<<a<<endl;
-    cout<<b<<endl;
+    // bool a = true;
+    // bool b = false;
+    // cout<<a<<endl;
+    // cout<<b<<endl;
+    // cout<<boolalpha;
+    // cout<<a<<endl;
+    // cout<<b<<endl;
 
-    cout<<(10>9)<<endl;
-    cout<<(7<6)<<endl;
-    //voting system
-    int age =18;
-    if(age>=18)
+    // cout<<(10>9)<<endl;
+    // cout<<(7<6)<<endl;
+    // //voting system
+    // int age =18;
+    // if(age>=18)
+    // {
+    //     cout<<"Can Vote"<<endl;
+    // }else
+    // {
+    //     cout<<"Can't Vote"<<endl;
+    // }
+
+    //If else statements in c++
+    // int age =18;
+    // if(age>=18)
+    // {
+    //     cout<<"You can Vote"<<endl;
+    // }else
+    // {
+    //     cout<<"You are baby"<<endl;
+    // }
+
+    // int time =14;
+    // if(time<12)
+    // {
+    //   cout<<"Morning";
+    // }else if(time<18)
+    // {
+    //     cout<<"Evening";
+    // }else
+    // {
+    //  cout<<endl;
+    // }
+
+    //Ternary Operator
+    // int watch=20;
+    // string result =(watch<18)?"Good day":"Good Evening";
+    // cout<<result;
+    // int a =19;
+    // string ans = (a>19)?"Can Vote":"Can't Vote";
+    // cout<<ans;
+
+    // int a= 20;
+    // int b = 30;
+    // if(a>10)
+    // {
+    //     cout<<"a is greater than 10"<<endl;
+    //     //Nested if
+    //     if(b>20)
+    //     {
+    //         cout<<"b is greater than 20"<<endl;
+    //     }
+    // }
+
+    //Logical operators
+
+    int a =20;
+    int b= 30;
+    // if(a>10 && b>25)
+    // {
+    //     cout<<"Both conditons are true"<<endl;
+    // }
+
+    // if(a>30 || b>25)
+    // {
+    //     cout<<"Both conditons are true"<<endl;
+    // }
+
+    if(!(a>10 && b>25))
     {
-        cout<<"Can Vote"<<endl;
-    }else
-    {
-        cout<<"Can't Vote"<<endl;
+        cout<<"Both conditons are true"<<endl;
     }
+
 }
