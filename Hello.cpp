@@ -274,10 +274,138 @@ int main()
     //     i++;
     // }
 
-    int i=0;
-    do{
-        cout<<i<<endl;    
-        i++;
-    }while(i<10);
+    // int i=0;
+    // do{
+    //     cout<<i<<endl;    
+    //     i++;
+    // }while(i<10);
 
+    //For loop 
+
+    // for(int i=0 ; i<=10 ; i++)
+    // {
+    //     cout<<i<<endl;
+    // }
+
+    //sum of numbers
+    // int sum=0;
+    // for(int i=0 ; i<10 ; i++)
+    // {
+    //     sum = sum+i;
+    // }
+    // cout<<sum;
+
+    //CountoDown
+    // for(int i=5 ; i>0 ; i--)
+    // {
+    //     cout<<i<<endl;
+    // }
+
+    //Nested Loop
+    // for(int i=0 ; i<=2; i++)
+    // {   
+    //     cout<<"Outer i loop"<<i<<endl;
+    //     for(int j=1 ; j<=3 ; j++)
+    //     {
+    //         cout<<"Inner"<<j<<endl;
+    //     }
+    // }
+    
+    //For better understanding of loops
+    // for(int i = 1 ; i<=5 ; i++)
+    // {
+    //     cout<<"Outer loop"<<i<<endl;
+    //     for(int j=1 ; j<=6 ; j++)
+    //     {
+    //         cout<<"Inner loop"<<j<<endl;
+    //     }
+    // }
+
+    //Multiplication 
+    // for(int i=1 ; i<=4 ; i++)
+    // {
+    //     for(int j=1 ; j<=5 ; j++)
+    //     {
+    //         cout<<i*j<<endl;
+    //     }
+    // }
+
+    //For each Loop
+    // int a[5] = {10 , 20 , 30 , 40 , 50};
+    // for(int x:a)
+    // {
+    //     cout<<x<<endl;
+    // }
+
+    // string x ="Jay is in barclays";
+    // for(char c :x)
+    // {
+    //     cout<<c<<endl;
+    // }
+
+    //Break Continue
+    // int i=0 ;
+    // while(i<10)
+    // {   
+    //     cout<<i;
+    //       i++;
+    //      if(i==4)
+    //      {
+    //        i++;
+    //      break;
+    //      }
+       
+    //  }
+
+    // int i=0 ;
+    // while(i<10)
+    // {
+    //     if(i==5)
+    //     {
+    //     i++;
+    //     continue;
+    //     }
+    //     cout<<i<<endl;
+    //     i++;
+    // }
+
+    //Arrays
+    // string cars[4] = {"Volvo", "BMW", "Mercedes", "Honda RS"};
+    // cout<<cars[0]<<endl;
+    // for(int i =0 ; i<4 ; i++)
+    // {
+    //     cout<<cars[i]<<endl;
+    // }
+
+    // string cars[5] = {"Volvo", "BMW", "Ford", "Mazda", "Tesla"};
+
+    // // Loop through strings
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     cout << cars[i] << "\n";
+    // }
+
+    // int numbers[5] = {10 , 20 , 30 , 40 , 50};
+    // cout<<sizeof(numbers)/sizeof(numbers[0]);
+    // for(int i=0 ; i<5 ; i++)
+    // {
+    //     cout<<numbers[i]<<endl;
+    // }
+
+    //MultiDimensional Arrays
+
+    string letters[2][4]={
+        {"A","B","C","D"},
+        {"E","F","G","H"}
+    };
+
+    cout<<letters[1][2]<<endl;
+
+    for(int i=0 ; i<2 ; i++)
+    {
+        for(int j=0 ; j<4 ; j++)
+        {
+            cout<<letters[i][j];
+        }
+    }
 }
