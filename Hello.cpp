@@ -394,18 +394,72 @@ int main()
 
     //MultiDimensional Arrays
 
-    string letters[2][4]={
-        {"A","B","C","D"},
-        {"E","F","G","H"}
-    };
+    // string letters[2][4]={
+    //     {"A","B","C","D"},
+    //     {"E","F","G","H"}
+    // };
 
-    cout<<letters[1][2]<<endl;
+    // cout<<letters[1][2]<<endl;
 
-    for(int i=0 ; i<2 ; i++)
-    {
-        for(int j=0 ; j<4 ; j++)
-        {
-            cout<<letters[i][j];
-        }
-    }
+    // for(int i=0 ; i<2 ; i++)
+    // {
+    //     for(int j=0 ; j<4 ; j++)
+    //     {
+    //         cout<<letters[i][j];
+    //     }
+    // }
+
+    //Struct
+
+//    struct 
+//    {
+//     int Mynum;
+//     string Nyname ;
+//     float a ;
+//    }MyStructure, MyStructure1;
+
+//    MyStructure1.a= 10.20;
+//    MyStructure1.Mynum= 100;
+//    MyStructure1.Nyname= "Jaywardhan";
+
+//  MyStructure.a= 10.20;
+//    MyStructure.Mynum= 100;
+//    MyStructure.Nyname= "Jaywardhan";
+
+//     MyStructure1.a= 10.20;
+//    MyStructure1.Mynum= 100;
+//    MyStructure1.Nyname= "Jaywardhan";
+
+//    cout<<MyStructure.Mynum<<endl;
+//    cout<<MyStructure.Nyname<<endl;
+//    cout<<MyStructure.a<<endl;
+
+//     cout<<MyStructure1.Mynum<<endl;
+//    cout<<MyStructure1.Nyname<<endl;
+//    cout<<MyStructure1.a<<endl;
+   
+   //Named Structure
+//     enum Level { 
+//     LOW=5, MEDIUM, HIGH };
+//    enum Level myVar = HIGH ;
+//    cout<<myVar<<endl;
+
+// string food ="Pizza";
+// string &meal = food;
+// cout<<food<<endl;
+// cout<<&food<<endl;
+// cout<<meal<<endl;
+
+//C++ Pointers
+
+//   string food  ="Pizza";
+//   string *ptr = &food;
+//   cout<<food<<endl;
+//   cout<<&food<<endl;
+//   cout<<ptr<<endl;
+//   cout<<*ptr<<endl;
+
+
+
+   
 }
