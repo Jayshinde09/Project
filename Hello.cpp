@@ -227,8 +227,8 @@ int main()
 
     //Logical operators
 
-    int a =20;
-    int b= 30;
+    // int a =20;
+    // int b= 30;
     // if(a>10 && b>25)
     // {
     //     cout<<"Both conditons are true"<<endl;
@@ -238,10 +238,46 @@ int main()
     // {
     //     cout<<"Both conditons are true"<<endl;
     // }
+    
+    //Not operator
+    // if(!(a>10 && b>25))
+    // {
+    //     cout<<"Both conditons are true"<<endl;
+    // }
+    
+    //Switch case 
 
-    if(!(a>10 && b>25))
-    {
-        cout<<"Both conditons are true"<<endl;
-    }
+    // int day = 4;
+    // switch(day)
+    // {
+    //     case 1:
+    //     cout<<"Monday";
+    //     break;
+    //     case 2:
+    //     cout<<"Tuesday";
+    //     break;
+    //     case 4:
+    //     cout<<"Wednesday";
+    //     break;
+    //     case 5:
+    //     cout<<"Thursday";
+    //     break;
+    // }
+    
+
+    //Loops
+
+    // int i=0;
+    // while(i<10)
+    // {
+    //     cout<<i<<endl;
+    //     i++;
+    // }
+
+    int i=0;
+    do{
+        cout<<i<<endl;    
+        i++;
+    }while(i<10);
 
 }
