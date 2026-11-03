@@ -211,6 +211,7 @@
 //     j.sound();
 //     k.sound();
 //     s.sound();
+   
 // }
 
 // file operations
@@ -223,13 +224,13 @@ int main()
     ofstream MyFile("Jay.txt");
     MyFile << "Jay is in barclays";
     MyFile.close();
-    string myText;
+    string myTet;
 
     ifstream MyReadFile("Jay.txt");
 
-    while (getline(MyReadFile, myText))
+    while (getline(MyReadFile, myTet))
     {
-        cout << myText;
+        cout << myTet;
     }
 
     // Close the file
