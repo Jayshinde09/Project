@@ -500,21 +500,21 @@
 
 //Function overloading
 
-// #include<iostream>
-// using namespace std ;
+#include<iostream>
+using namespace std ;
 
-// int a(int x , int y)
-// {
-//     return x+y;
-// }
-// double a(double x , double y)
-// {
-//     return x+y;
-// }
-// int main()
-// {
-//     cout<<a(23.45,45.13)<<endl;
-//     cout<<a(23, 45);
-// }
+int a(int x , int y)
+{
+    return x+y;
+}
+double a(double x , double y)
+{
+    return x+y;
+}
+int main()
+{
+    cout<<a(23.45,45.13)<<endl;
+    cout<<a(23, 45);
+}
 
 //Recursion is pending
