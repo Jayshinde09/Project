@@ -129,45 +129,109 @@
   
 // }
 
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-class Vehicle
-{
-    public:
-    string brand ="HONDA RS";
-    void horn()
-    {
-        cout<<"Dram Dram";
-    }
+// class Vehicle
+// {
+//     public:
+//     string brand ="HONDA RS";
+//     void horn()
+//     {
+//         cout<<"Dram Dram";
+//     }
 
-};
+// };
 
-class Car : public Vehicle //singlle inheritance
-{
-    public:
-    string model ="Scorpio N";
-};
+// class Car : public Vehicle //singlle inheritance
+// {
+//     public:
+//     string model ="Scorpio N";
+// };
 
-class Bike: public Car//Multilevel inheritance
-{
-    public:
-    void show()
-    {
-        cout<<"Hunter is best bike"<<endl;
-    }
+// class Bike: public Car//Multilevel inheritance
+// {
+//     public:
+//     void show()
+//     {
+//         cout<<"Hunter is best bike"<<endl;
+//     }
     
-};
+// };
 
-class Four: public Bike
-{
+// class Four: public Bike
+// {
 
-};
+// };
 
+// int main()
+// {
+//    Four s ;
+//    s.horn();
+//    s.show();
+//    cout<<s.brand<<s.model<<endl;
+// }
+
+//C++ Polymorphism
+
+// #include<iostream>
+// using namespace std ;
+
+// class RE
+// {
+//     public :
+//     void sound()
+//     {
+//         cout<<"RE is dak dak"<<endl;
+//     }
+// };
+
+// class Honda: public RE
+// {
+//     public:
+//     void sound()
+//     {
+//         cout<<"Honda is dhak dhak"<<endl;
+//     }
+// };
+
+// class TVS : public Honda
+// {
+//     public:
+//     void sound()
+//     {
+//         cout<<"TVS is dhur dhur"<<endl;
+//     }
+// };
+// int main()
+// {
+//     TVS s;
+//     Honda k;
+//     RE j;
+//     j.sound();
+//     k.sound();
+//     s.sound();
+// }
+
+// file operations
+
+#include<iostream>
+#include<fstream>
+using namespace std;
 int main()
 {
-   Four s ;
-   s.horn();
-   s.show();
-   cout<<s.brand<<s.model<<endl;
+    ofstream MyFile("Jay.txt");
+    MyFile << "Jay is in barclays";
+    MyFile.close();
+    string myText;
+
+    ifstream MyReadFile("Jay.txt");
+
+    while (getline(MyReadFile, myText))
+    {
+        cout << myText;
+    }
+
+    // Close the file
+    MyReadFile.close();
 }
