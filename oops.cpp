@@ -216,23 +216,24 @@
 
 // file operations
 
-#include<iostream>
-#include<fstream>
-using namespace std;
-int main()
-{
-    ofstream MyFile("Jay.txt");
-    MyFile << "Jay is in barclays";
-    MyFile.close();
-    string myTet;
+// #include<iostream>
+// #include<fstream>
+// using namespace std;
+// int main()
+// {
+//     ofstream MyFile("Jay.txt");
+//     MyFile << "Jay is in barclays";
+//     MyFile.close();
+//     string myTet;
 
-    ifstream MyReadFile("Jay.txt");
+//     ifstream MyReadFile("Jay.txt");
 
-    while (getline(MyReadFile, myTet))
-    {
-        cout << myTet;
-    }
+//     while (getline(MyReadFile, myTet))
+//     {
+//         cout << myTet;
+//     }
 
-    // Close the file
-    MyReadFile.close();
-}
+//     // Close the file
+//     MyReadFile.close();
+// }
+
