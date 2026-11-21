@@ -32,11 +32,64 @@ public class Hello
         // int w=23;
         // System.out.println("Area of rectangle"+ x*y);
 
-        byte x = 129;  //-128 to 127
-        short y = 5000 //-32768 to 32767:
-        int nynum = 100000 //-2147483648 to 2147483647.
-        long k = 10000000000  // -9223372036854775808 to 9223372036854775807
-        System.out.println(x);
-        System.out.println(y);
+        // byte x = 129;  //-128 to 127
+        // short y = 5000 //-32768 to 32767:
+        // int nynum = 100000 //-2147483648 to 2147483647.
+        // long k = 10000000000  // -9223372036854775808 to 9223372036854775807
+        // System.out.println(x);
+        // System.out.println(y);
+
+        //  var x = 20;
+        //  System.out.println(x);
+
+        // Java operators
+        //Arithmetic operators
+        // int x = 20;
+        // int y =15;
+        // System.out.println(x+y);
+        // System.out.println(x-y);
+        // System.out.println(x*y);
+        // System.out.println(x/y);
+        // System.out.println(x%y);
+
+        //Assignment operators
+
+        // int k  = 23;
+        // int l = 45;
+        // System.out.println(k+=5);
+        // System.out.println(k-=5);
+        // System.out.println(k*=5);
+        // System.out.println(k/=5);
+        // System.out.println(k%=5);
+        // System.out.println(k&=5);
+
+        // Comparison operators
+        // int x = 20;
+        // int y= 26;
+        // System.out.println(x==y);
+        // System.out.println(x!=y);
+        // System.out.println(x>=y);
+        // System.out.println(x<=y);
+        // System.out.println(x>y);
+        // System.out.println(x<y);
+
+        //Logical operators
+        int x =7;
+        System.out.println(x<5&&x<10);
+        System.out.println(!(x<5&&x<10));
+
+        //Operator precedence
+
+//         () - Parentheses
+// *, /, % - Multiplication, Division, Modulus
+// +, - - Addition, Subtraction
+// >, <, >=, <= - Comparison
+// ==, != - Equality
+// && - Logical AND
+// || - Logical OR
+// = - Assignment
+
+   
+
     }
 }
