@@ -141,3 +141,84 @@
 //         c.animalSound();
 //     }
 // }
+
+//class under class
+// class Show{
+//     int x = 20;
+//     class Hello
+//     {
+//         int y = 10;
+//     }
+// }
+
+// class Main
+// {
+//     public static void main(String[] args)
+//     {
+//         Show sc = new Show();
+//         Show.Hello kc  =  sc.new Hello();
+//         System.out.println(kc.y + sc.x);
+
+//     }
+// }
+
+
+//Abstarction
+// abstract class Animal
+// {
+//     public abstract void  AnimalSound();
+//     public void sleep()
+//     {
+//         System.out.println("Animal is slepping");
+//     }
+
+// }
+
+// class Hello extends Animal
+// {
+//     public void AnimalSound()
+//     {
+//         System.out.println("Animal is barking");
+//     }
+// }
+
+// class Main{
+//     public static void main(String[] args)
+//     {
+//         Hello sc = new Hello();
+//         sc.AnimalSound();
+//         sc.sleep();
+//     }
+// }
+
+//interface 
+
+interface Animal
+{
+    public void AnimalSound();
+    public void CarSOund();
+
+}
+
+class Hello implements Animal
+{
+    public void AnimalSound()
+    {
+        System.out.println("Jay is going to rule this world");
+    }
+
+    public void CarSOund()
+    {
+        System.out.println("Jay will Eventually rule");
+    }
+}
+
+class Main
+{
+    public static void main(String[] args)
+    {
+        Hello sc = new Hello();
+        sc.AnimalSound();
+        sc.CarSOund();
+    }
+}
